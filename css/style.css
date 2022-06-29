@@ -13,6 +13,31 @@ body{
 /* Main */
 
 #container {
-    margin: 100px auto;
-    padding: 10px;
+    padding: 30px;
+    position: relative;
+}
+
+#landscape-img {
+    width: 80vw;
+    height: 80vh;
+    background-image: url(https://cdn.sanity.io/images/24oxpx4s/prod/ed09eff0362396772ad50ec3bfb728d332eb1c30-3200x2125.jpg?w=1600&h=1063&fit=crop);
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.button {
+    padding: 10px 20px;
+}
+
+.forward {
+    position: absolute;
+    top: 20vw;
+    left: 20vh;
+}
+
+.backward {
+    position: absolute;
+    top: 20vw;
+    right: 20vh;
 }
